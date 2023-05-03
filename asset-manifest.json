@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovetrakCatalogo/static/css/main.073c9b0a.css",
-    "main.js": "/MovetrakCatalogo/static/js/main.b1c54bc9.js",
+    "main.js": "/MovetrakCatalogo/static/js/main.f9df7375.js",
     "static/js/787.b4d1c2d9.chunk.js": "/MovetrakCatalogo/static/js/787.b4d1c2d9.chunk.js",
     "static/media/ADAILTON CHAVES DE ARAUJO.png": "/MovetrakCatalogo/static/media/ADAILTON CHAVES DE ARAUJO.89374579b64e797d89f8.png",
     "static/media/MARCELO ANJOS SANTOS2.png": "/MovetrakCatalogo/static/media/MARCELO ANJOS SANTOS2.707066d32300489c8fc4.png",
@@ -102,6 +102,7 @@
     "static/media/MAILTON MIRANDA DE ARAÚJO.png": "/MovetrakCatalogo/static/media/MAILTON MIRANDA DE ARAÚJO.84f7e699fde44b54a9e0.png",
     "static/media/MAURO SERGIO CORDEIRO DE OLIVEIRA.png": "/MovetrakCatalogo/static/media/MAURO SERGIO CORDEIRO DE OLIVEIRA.0d0197323f478c4c2289.png",
     "static/media/EDUARDO ALVES DE OLIVEIRA.png": "/MovetrakCatalogo/static/media/EDUARDO ALVES DE OLIVEIRA.6263dd2d5ceb93550171.png",
+    "static/media/capa.png": "/MovetrakCatalogo/static/media/capa.405910ab58683a145dc9.png",
     "static/media/Cyidob-W8AAb1bE.png": "/MovetrakCatalogo/static/media/Cyidob-W8AAb1bE.2f1196c47df109b19748.png",
     "static/media/ACLEITON DE OLIVEIRA ROCHA.png": "/MovetrakCatalogo/static/media/ACLEITON DE OLIVEIRA ROCHA.72f821a589869b305295.png",
     "static/media/ANTONIO OLIVEIRA DE SOUZA JUNIOR .png": "/MovetrakCatalogo/static/media/ANTONIO OLIVEIRA DE SOUZA JUNIOR .72f821a589869b305295.png",
@@ -157,11 +158,11 @@
     "static/media/zzzz5.png": "/MovetrakCatalogo/static/media/zzzz5.72f821a589869b305295.png",
     "index.html": "/MovetrakCatalogo/index.html",
     "main.073c9b0a.css.map": "/MovetrakCatalogo/static/css/main.073c9b0a.css.map",
-    "main.b1c54bc9.js.map": "/MovetrakCatalogo/static/js/main.b1c54bc9.js.map",
+    "main.f9df7375.js.map": "/MovetrakCatalogo/static/js/main.f9df7375.js.map",
     "787.b4d1c2d9.chunk.js.map": "/MovetrakCatalogo/static/js/787.b4d1c2d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.b1c54bc9.js"
+    "static/js/main.f9df7375.js"
   ]
 }
