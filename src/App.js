@@ -8,11 +8,17 @@ function App() {
   const DadosInfo = [
     {
       nomeproprietario: "ACLEITON DE OLIVEIRA ROCHA",
-      placa: "CLH-1J28"
+      placa: "CLH-1J28",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "ADAILTON ARAUJO",
-      placa: "LBO0018"
+      placa: "LBO0018",
+      rota: "9.3km 23.5km",
+      diaria: "32.8km",
+      turno: "Noturno"
     },
     {
       nomeproprietario: "ADAILTON CHAVES DE ARAUJO",
@@ -30,11 +36,17 @@ function App() {
     },
     {
       nomeproprietario: "ALAN CARLOS ALVES DE ARAUJO",
-      placa: "KUG-5124"
+      placa: "KUG-5124",
+      rota: "FIXO ",
+      diaria: "FIXO",
+      turno: "Matutino"
     },
     {
       nomeproprietario: "ALEXANDRE ALCANTRA",
-      placa: "CLJ-6781"
+      placa: "CLJ-6781",
+      rota: "9.7km",
+      diaria: "38.8km",
+      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "ANDERSON SOUZA FERREIRA",
@@ -59,11 +71,17 @@ function App() {
     },
     {
       nomeproprietario: "ANSELMO O. AMORIM",
-      placa: "CDL-7843"
+      placa: "CDL-7843",
+      rota: "10km 7km 13km",
+      diaria: "40km",
+      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "ANSELMO O. AMORIM",
-      placa: "DJB-7971"
+      placa: "DJB-7971",
+      rota: "10km 25km",
+      diaria: "45.8km",
+      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "ANTÔNIO DOURADO DE SOUZA ",
@@ -74,11 +92,17 @@ function App() {
     },
     {
       nomeproprietario: "ANTONIO HERMELINO MENDES NETO",
-      placa: "JPV-7487"
+      placa: "JPV-7487",
+      rota: "8.2km",
+      diaria: "16.4km",
+      turno: "vespertino"
     },
     {
       nomeproprietario: "ANTONIO OLIVEIRA DE SOUZA JUNIOR ",
-      placa: "GXH 0574"
+      placa: "GXH 0574",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "ARAUJO ALVES EMPREENDIMENTOS",
@@ -117,7 +141,10 @@ function App() {
     },
     {
       nomeproprietario: "CARLOS JOSÉ BISPO DE SOUZA",
-      placa: "JQO-3662"
+      placa: "JQO-3662",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "CARLOS JOSE GASPAR DE SOUZA",
@@ -170,7 +197,10 @@ function App() {
     },
     {
       nomeproprietario: "DOUGLAS CAVALCANTE DE OLIVEIRA",
-      placa: "CZH-8300"
+      placa: "CZH-8300",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "EDIMAR ALVES DE OLIVEIRA ",
@@ -188,7 +218,10 @@ function App() {
     },
     {
       nomeproprietario: "EDUARDO ALVES DE OLIVEIRA",
-      placa: "JSJ-6A39"
+      placa: "JSJ-6A39",
+      rota: "8.7km",
+      diaria: "34.8km",
+      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "EDVALDO ALVES DE MIRANDA ",
@@ -199,59 +232,94 @@ function App() {
     },
     {
       nomeproprietario: "EDVALDO ALVES DE MIRANDA ",
-      placa: "LCR - 6454"
+      placa: "LCR - 6454",
+      rota: "22km",
+      diaria: "88km",
+      turno: "Matutino e Noturno"
     },
     {
       nomeproprietario: "ELI ARAUJO",
-      placa: "HKD-6666"
+      placa: "HKD-6666",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "ELIZEU JOAQUIM",
-      placa: "CGR2380"
+      placa: "CGR2380",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "ERIC DOURADO BISPO",
-      placa: "JOA-6297"
+      placa: "JOA-6297",
+      rota: "23.8km",
+      diaria: "47.6km",
+      turno: "Vespertino"
     },
     {
       nomeproprietario: "ETEVALDO ALVES",
-      placa: "CQH4A65"
+      placa: "CQH4A65",
+      rota: "8km 22.9km",
+      diaria: "30.9km",
+      turno: "Vespertino"
     },
     {
       nomeproprietario: "ETEVALDO ALVES DE SOUZA ",
-      placa: "CNJ-0465"
-    },
-    {
-      nomeproprietario: "ETEVALDO ALVES DE SOUZA ",
-      placa: "CRH-4A65"
-    },
-    {
-      nomeproprietario: "ETEVALDO NUNES BRITO",
-      placa: "CBS-4039"
+      placa: "CNJ-0465",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "ETEVALDO NUNES BRITO",
-      placa: "DZI 3216"
+      placa: "CBS-4039",
+      rota: "",
+      diaria: "",
+      turno: ""
+    },
+    {
+      nomeproprietario: "ETEVALDO NUNES BRITO",
+      placa: "DZI 3216",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "EUCLIDES DOS SANTOS NETO",
-      placa: "DEC-1371"
+      placa: "DEC-1371",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "EVERTON DOS SANTOS VASCONCELOS",
-      placa: "BYG-1549"
+      placa: "BYG-1549",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "EVILASIO GONCALVES BARBOSA",
-      placa: "CYR-8927"
+      placa: "CYR-8927",
+      rota: "20km",
+      diaria: "40km",
+      turno: "Matutino"
     },
     {
       nomeproprietario: "FABIANO DA SILVA PINA",
-      placa: "HRN-7E41"
+      placa: "HRN-7E41",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "FABIO ROCHA DO SANTOS ",
-      placa: "CXA-1E71"
+      placa: "CXA-1E71",
+      rota: "3km",
+      diaria: "12km",
+      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "FABIO SANTOS SOUZA",
@@ -269,7 +337,10 @@ function App() {
     },
     {
       nomeproprietario: "FIDELCINA ALVES DE SOUZA ",
-      placa: "CNS-4711"
+      placa: "CNS-4711",
+      rota: "15.5km",
+      diaria: "31km",
+      turno: "Vespertino"
     },
     {
       nomeproprietario: "FRANCISCO PEDRO DE ALCANTRA",
@@ -280,7 +351,10 @@ function App() {
     },
     {
       nomeproprietario: "GESSICA ARAUJO DE SOUZA",
-      placa: "BXC-3A54"
+      placa: "BXC-3A54",
+      rota: "28.2km",
+      diaria: "56.4km",
+      turno: "Vespertino"
     },
     {
       nomeproprietario: "GILBERTO MARTINS DE SOUZA ",
@@ -291,7 +365,10 @@ function App() {
     },
     {
       nomeproprietario: "GILDEIR JESUS ",
-      placa: "MTN-9275"
+      placa: "MTN-9275",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "GILDENOR FRANCISCO DE SOUSA",
@@ -302,7 +379,10 @@ function App() {
     },
     {
       nomeproprietario: "GILMAR JONAS DE SOUZA",
-      placa: "JEW-0785"
+      placa: "JEW-0785",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "GIONE NOVAES DE SOUZA",
@@ -313,7 +393,10 @@ function App() {
     },
     {
       nomeproprietario: "GUSTAVO FRANCISCO DE SOUZA ",
-      placa: "KNS-0103"
+      placa: "KNS-0103",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "HENRIQUE FERREIRA DE SOUZA ",
@@ -331,7 +414,10 @@ function App() {
     },
     {
       nomeproprietario: "ISMAEL JOSE DOS SANTOS ",
-      placa: "CLT-7332"
+      placa: "CLT-7332",
+      rota: "11.8km",
+      diaria: "23.6km",
+      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "ISMAEL JOSE DOS SANTOS ",
@@ -342,15 +428,24 @@ function App() {
     },
     {
       nomeproprietario: "JAILSON SANTOS DE OLIVEIRA ",
-      placa: "DIR-3298"
+      placa: "DIR-3298",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "JAILTON OLIVEIRA DE SOUZA",
-      placa: "JOT-6E03"
+      placa: "JOT-6E03",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "JARBAS ALVES FERREIRA ",
-      placa: "JJB-6735"
+      placa: "JJB-6735",
+      rota: "20.8km",
+      diaria: "41.6km",
+      turno: "Vespertino"
     },
     {
       nomeproprietario: "JEFERSON SANTOS RODRIGUES",
@@ -375,11 +470,17 @@ function App() {
     },
     {
       nomeproprietario: "JOÃO DE DEUS SAMPAIO SANTOS FILHO",
-      placa: "DJB-5893"
+      placa: "DJB-5893",
+      rota: "17.1km",
+      diaria: "34.2km",
+      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "JOAO MENDES DA SILVA FILHO",
-      placa: "CLK-0916"
+      placa: "CLK-0916",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "JOÃO MENDES DA SILVA FILHO ",
@@ -397,7 +498,10 @@ function App() {
     },
     {
       nomeproprietario: "JODENILSON SANTOS DO NASCIMENTO",
-      placa: "DAH-4682"
+      placa: "DAH-4682",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "JOESIO FRNCISCO SOUZA",
@@ -415,7 +519,10 @@ function App() {
     },
     {
       nomeproprietario: "JOSE FERNANDO TEIXEIRA",
-      placa: "JWY-5319"
+      placa: "JWY-5319",
+      rota: "36.5km",
+      diaria: "73km",
+      turno: "Vespertino"
     },
     {
       nomeproprietario: "JOSE LOURENÇO MARQUES SOUZA",
@@ -433,19 +540,31 @@ function App() {
     },
     {
       nomeproprietario: "JOSÉ NILDO DE SOUZA",
-      placa: "CAT-6203"
+      placa: "CAT-6203",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "JOSÉ SERGIO DOS ANJOS SANTOS ",
-      placa: "MPY-9211"
+      placa: "MPY-9211",
+      rota: "12km",
+      diaria: "24km",
+      turno: "Matutino"
     },
     {
       nomeproprietario: "JOSEMAR FERREIRA DE SOUZA",
-      placa: "CLJ-5202"
+      placa: "CLJ-5202",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "JOSEMAR RODRIGUES",
-      placa: "JRI-6914"
+      placa: "JRI-6914",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "JOSIANE ALVES DOS SANTOS ",
@@ -456,7 +575,10 @@ function App() {
     },
     {
       nomeproprietario: "JOSIMAR SOUZA FERREIRA",
-      placa: "BSG-0164"
+      placa: "BSG-0164",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "JURACI JOSE DOS SANTOS ",
@@ -467,17 +589,24 @@ function App() {
     },
     {
       nomeproprietario: "KATIELY",
-      placa: "BYG-6333"
+      placa: "BYG-6333",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "LEISIANE FERREIRA SOUZA",
       placa: "DWH-0H79",
       rota: "FIXO ",
-      diaria: "FIXO"
+      diaria: "FIXO",
+      turno: ""
     },
     {
       nomeproprietario: "LUCAS OLIVEIRA NOVAES ",
-      placa: "DAO-1304"
+      placa: "DAO-1304",
+      rota: "6km 7.4km 15.2km",
+      diaria: "43.8km",
+      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "LUCIANO GONÇALVES DE SOUZA ",
@@ -495,7 +624,10 @@ function App() {
     },
     {
       nomeproprietario: "MADSON MENDES SANTOS ",
-      placa: "LOX-7947"
+      placa: "LOX-7947",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "MAICON NASCIMENTO OLIVEIRA",
@@ -513,7 +645,10 @@ function App() {
     },
     {
       nomeproprietario: "MAILTON MIRANDA DE ARAÚJO",
-      placa: "JGE-3754"
+      placa: "JGE-3754",
+      rota: "2.9km",
+      diaria: "5.8km",
+      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "MANOEL MESSIAS DOS REIS",
@@ -538,11 +673,17 @@ function App() {
     },
     {
       nomeproprietario: "MARIA DA CONCEIÇÃO BARRETO DOS SANTOS",
-      placa: "DJK-0566"
+      placa: "DJK-0566",
+      rota: "4.3km",
+      diaria: "8.6km",
+      turno: "Matutino"
     },
     {
       nomeproprietario: "MARIA DO CARMO DOS ANJOS ",
-      placa: "DPC-2785"
+      placa: "DPC-2785",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "MARIA DO CARMO ROSA",
@@ -575,17 +716,23 @@ function App() {
     {
       nomeproprietario: "MUDESTO OLIVEIRA MENDES",
       placa: "JHF-9G64",
-      rota: "FIXO ",
-      diaria: "FIXO",
-      turno: "Matutino e Vespertino"
+      rota: "31.6km",
+      diaria: "63.2km",
+      turno: "Matutino"
     },
     {
       nomeproprietario: "NATANAEL TEIXEIRA ",
-      placa: "BXA-5776"
+      placa: "BXA-5776",
+      rota: "7.4km",
+      diaria: "14.8km",
+      turno: "Vespertino"
     },
     {
       nomeproprietario: "NERISVALDO LIDIO DE JESUS ",
-      placa: "BTO-2890"
+      placa: "BTO-2890",
+      rota: "4km",
+      diaria: "8km",
+      turno: "Matutino"
     },
     {
       nomeproprietario: "NEUDISON DE ARAUJO LIMA ",
@@ -596,7 +743,10 @@ function App() {
     },
     {
       nomeproprietario: "NILDEIA OLIVEIRA DA SILVA",
-      placa: "BDM-5C54"
+      placa: "BDM-5C54",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "NILTON O. ROCHA",
@@ -628,7 +778,10 @@ function App() {
     },
     {
       nomeproprietario: "PABLO MORGAN DE OLIVEIRA",
-      placa: "DPC-2793"
+      placa: "DPC-2793",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "PAULO CEZAR DOS ANJOS",
@@ -660,7 +813,10 @@ function App() {
     },
     {
       nomeproprietario: "REGINALDO DE SOUZA",
-      placa: "KQI-5921"
+      placa: "KQI-5921",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "REGINALDO RODRIGUES DE SOUZA ",
@@ -671,7 +827,10 @@ function App() {
     },
     {
       nomeproprietario: "REGINALDO SOUZA TELES",
-      placa: "JRE5H12"
+      placa: "JRE5H12",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "REGINALDO SOUZA TELES",
@@ -689,15 +848,24 @@ function App() {
     },
     {
       nomeproprietario: "REINALDO RODRIGUES DE SOUZA ",
-      placa: "DAJ-3023"
+      placa: "DAJ-3023",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "RENATO JOSÉ DOS SANTOS ",
-      placa: "HYO-0C10"
+      placa: "HYO-0C10",
+      rota: "43km",
+      diaria: "86km",
+      turno: "Vespertino"
     },
     {
       nomeproprietario: "ROBERTO ANTONIO DE OLIVEIRA",
-      placa: "CLJ-6715"
+      placa: "CLJ-6715",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "ROBERTO ANTONIO DE OLIVEIRA",
@@ -708,7 +876,10 @@ function App() {
     },
     {
       nomeproprietario: "ROBERTO TELES BRANDÃO ",
-      placa: "DEB-1451"
+      placa: "DEB-1451",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "ROGERIO DOS SANTOS",
@@ -726,11 +897,17 @@ function App() {
     },
     {
       nomeproprietario: "SIDALVA DE JESUS",
-      placa: "FRJ-4321"
+      placa: "FRJ-4321",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "SILVANA CORDEIRO CRISPIM",
-      placa: "OUY-1G75"
+      placa: "OUY-1G75",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "SILVANO DE OLIVEIRA SANTOS",
@@ -741,7 +918,10 @@ function App() {
     },
     {
       nomeproprietario: "SILVIO SOUZA DE OLIVEIRA ",
-      placa: "DBL-1863"
+      placa: "DBL-1863",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "SUZANA GASPAR DE SOUZA",
@@ -780,7 +960,10 @@ function App() {
     },
     {
       nomeproprietario: "UELITON TEIXEIRA DE ARAUJO",
-      placa: "NTG-9079"
+      placa: "NTG-9079",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "UEMERSOM MENDES PINA",
@@ -791,15 +974,24 @@ function App() {
     },
     {
       nomeproprietario: "VANDERLEY SANTOS OLIVEIRA",
-      placa: "PYR-2917"
+      placa: "PYR-2917",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "VANGE PEREIRA DOS SANTOS ",
-      placa: "LOH-6351"
+      placa: "LOH-6351",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "VENILSON FERREIRA DE SOUZA ",
-      placa: "KNL-2861"
+      placa: "KNL-2861",
+      rota: "6.2km",
+      diaria: "12.4km",
+      turno: "Vespertino"
     },
     {
       nomeproprietario: "VIDEVAL FRANCISCO ANTUNES ",
@@ -810,15 +1002,24 @@ function App() {
     },
     {
       nomeproprietario: "YURE MATEUS ARAUJO DE OLIVEIRA",
-      placa: "GXS-1A10"
+      placa: "GXS-1A10",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "YURI OLIVEIRA SOUZA",
-      placa: "BPC-2790"
+      placa: "BPC-2790",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "ZAIANO OLIVEIRA",
-      placa: "CTK - 1102"
+      placa: "CTK - 1102",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
       nomeproprietario: "ZEMARIO ALVES DE SOUZA",
@@ -835,57 +1036,98 @@ function App() {
       turno: "Vespertino"
     },
     {
+      nomeproprietario: "",
       placa: "JOV7D27",
       rota: "21.2km",
       diaria: "42.4km",
       turno: "Vespertino"
     },
     {
+      nomeproprietario: "",
       placa: "LOF9089",
       rota: "8.4km 4.2km",
       diaria: "29.4km",
       turno: "Matutino e Vespertino"
     },
     {
-      placa: "CLJ-7877"
+      nomeproprietario: "",
+      placa: "CLJ-7877",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
-      placa: "DFY-7985"
+      nomeproprietario: "",
+      placa: "DFY-7985",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
-      placa: "DRA-1A93"
+      nomeproprietario: "",
+      placa: "DRA-1A93",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
+      nomeproprietario: "",
       placa: "FHB1F38",
       rota: "2.7km",
       diaria: "5.4km",
       turno: "Vespertino"
     },
     {
-      placa: "FYM6G8D"
+      nomeproprietario: "",
+      placa: "FYM6G8D",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
-      placa: "HRM5822"
+      nomeproprietario: "",
+      placa: "HRM5822",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
-      placa: "JOP5290"
+      nomeproprietario: "",
+      placa: "JOP5290",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
+      nomeproprietario: "",
       placa: "JOZ3G85",
       rota: "1.5km",
       diaria: "6km",
       turno: "Matutino e Vespertino"
     },
     {
-      placa: "JQY-2925"
+      nomeproprietario: "",
+      placa: "JQY-2925",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
-      placa: "CLJ-2419"
+      nomeproprietario: "",
+      placa: "CLJ-2419",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
-      placa: "COI8D82"
+      nomeproprietario: "",
+      placa: "COI8D82",
+      rota: "",
+      diaria: "",
+      turno: ""
     },
     {
+      nomeproprietario: "",
       placa: "DYC2G28"
     }
   ]
