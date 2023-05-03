@@ -287,6 +287,13 @@ function App() {
       turno: ""
     },
     {
+      nomeproprietario: "ETEVALDO NUNES BRITO",
+      placa: "JOZ 3G85",
+      rota: "1.5km",
+      diaria: "6km",
+      turno: "Matutino e Vespertino"
+    },
+    {
       nomeproprietario: "EUCLIDES DOS SANTOS NETO",
       placa: "DEC-1371",
       rota: "",
@@ -1097,13 +1104,6 @@ function App() {
       rota: "",
       diaria: "",
       turno: ""
-    },
-    {
-      nomeproprietario: "",
-      placa: "JOZ3G85",
-      rota: "1.5km",
-      diaria: "6km",
-      turno: "Matutino e Vespertino"
     },
     {
       nomeproprietario: "",
