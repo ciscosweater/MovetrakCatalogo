@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovetrakCatalogo/static/css/main.073c9b0a.css",
-    "main.js": "/MovetrakCatalogo/static/js/main.40dcc91d.js",
+    "main.js": "/MovetrakCatalogo/static/js/main.b1c54bc9.js",
     "static/js/787.b4d1c2d9.chunk.js": "/MovetrakCatalogo/static/js/787.b4d1c2d9.chunk.js",
     "static/media/ADAILTON CHAVES DE ARAUJO.png": "/MovetrakCatalogo/static/media/ADAILTON CHAVES DE ARAUJO.89374579b64e797d89f8.png",
     "static/media/MARCELO ANJOS SANTOS2.png": "/MovetrakCatalogo/static/media/MARCELO ANJOS SANTOS2.707066d32300489c8fc4.png",
@@ -15,7 +15,7 @@
     "static/media/CLESSIANO ALVES BARROS.png": "/MovetrakCatalogo/static/media/CLESSIANO ALVES BARROS.db4f0a839d8e231f960b.png",
     "static/media/SILVANO DE OLIVEIRA SANTOS.png": "/MovetrakCatalogo/static/media/SILVANO DE OLIVEIRA SANTOS.dee9bc5ab1f94efa0511.png",
     "static/media/ANSELMO O. AMORIM2.png": "/MovetrakCatalogo/static/media/ANSELMO O. AMORIM2.5e61e484f22d3537cd1d.png",
-    "static/media/zzzz1.png": "/MovetrakCatalogo/static/media/zzzz1.ad4f680150c3456d0aec.png",
+    "static/media/ETEVALDO NUNES BRITO3.png": "/MovetrakCatalogo/static/media/ETEVALDO NUNES BRITO3.ad4f680150c3456d0aec.png",
     "static/media/zzz6.png": "/MovetrakCatalogo/static/media/zzz6.f3eceb8727f19ab87155.png",
     "static/media/EDVALDO ALVES DE MIRANDA2.png": "/MovetrakCatalogo/static/media/EDVALDO ALVES DE MIRANDA2.1d8264b83be3208d1946.png",
     "static/media/CARLOS JOSE BISPO DE SOUZA1.png": "/MovetrakCatalogo/static/media/CARLOS JOSE BISPO DE SOUZA1.7d62997d98513645dd90.png",
@@ -157,11 +157,11 @@
     "static/media/zzzz5.png": "/MovetrakCatalogo/static/media/zzzz5.72f821a589869b305295.png",
     "index.html": "/MovetrakCatalogo/index.html",
     "main.073c9b0a.css.map": "/MovetrakCatalogo/static/css/main.073c9b0a.css.map",
-    "main.40dcc91d.js.map": "/MovetrakCatalogo/static/js/main.40dcc91d.js.map",
+    "main.b1c54bc9.js.map": "/MovetrakCatalogo/static/js/main.b1c54bc9.js.map",
     "787.b4d1c2d9.chunk.js.map": "/MovetrakCatalogo/static/js/787.b4d1c2d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.40dcc91d.js"
+    "static/js/main.b1c54bc9.js"
   ]
 }
