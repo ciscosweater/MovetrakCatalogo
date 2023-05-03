@@ -1,4 +1,5 @@
 import './App.css';
+import Capa from './components/capa';
 import Relatorio from './components/relatorio';
 
 const imagensContext = require.context('./assets', false, /\.(png|jpe?g|svg)$/);
@@ -1136,6 +1137,7 @@ function App() {
 
   return (
     <>
+      <Capa />
       {DadosInfo.map((item) => {
         contador++;
         return <Relatorio
