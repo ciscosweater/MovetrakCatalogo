@@ -1133,7 +1133,7 @@ function App() {
     }
   ]
 
-  let contador = 0;
+  let contador = 5;
 
   return (
     <>
