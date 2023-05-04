@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovetrakCatalogo/static/css/main.073c9b0a.css",
-    "main.js": "/MovetrakCatalogo/static/js/main.f9df7375.js",
+    "main.js": "/MovetrakCatalogo/static/js/main.9a2c755e.js",
     "static/js/787.b4d1c2d9.chunk.js": "/MovetrakCatalogo/static/js/787.b4d1c2d9.chunk.js",
     "static/media/ADAILTON CHAVES DE ARAUJO.png": "/MovetrakCatalogo/static/media/ADAILTON CHAVES DE ARAUJO.89374579b64e797d89f8.png",
     "static/media/MARCELO ANJOS SANTOS2.png": "/MovetrakCatalogo/static/media/MARCELO ANJOS SANTOS2.707066d32300489c8fc4.png",
@@ -158,11 +158,11 @@
     "static/media/zzzz5.png": "/MovetrakCatalogo/static/media/zzzz5.72f821a589869b305295.png",
     "index.html": "/MovetrakCatalogo/index.html",
     "main.073c9b0a.css.map": "/MovetrakCatalogo/static/css/main.073c9b0a.css.map",
-    "main.f9df7375.js.map": "/MovetrakCatalogo/static/js/main.f9df7375.js.map",
+    "main.9a2c755e.js.map": "/MovetrakCatalogo/static/js/main.9a2c755e.js.map",
     "787.b4d1c2d9.chunk.js.map": "/MovetrakCatalogo/static/js/787.b4d1c2d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f9df7375.js"
+    "static/js/main.9a2c755e.js"
   ]
 }
