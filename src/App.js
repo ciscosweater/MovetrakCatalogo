@@ -1146,7 +1146,7 @@ function App() {
           rota={item.rota}
           diaria={item.diaria}
           turnos={item.turno}
-          foto={imagens[contador - 1]}
+          foto={imagens[contador - 6]}
           indicador={contador}
         />
       })}
