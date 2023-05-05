@@ -10,6 +10,6 @@ export const Container = styled.div`
 
 export const Content = styled.img`
     height: 95%;
-    width: 60%;
+    width: 80%;
     object-fit: cover;
 `;

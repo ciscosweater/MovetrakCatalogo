@@ -9,8 +9,8 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    height: 95%;
-    width: 60%;
+    min-height: 10px;
+    width: 65%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -24,6 +24,7 @@ export const FieldLine = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 20px;
 `;
 
 export const FieldCollumn = styled.div`
@@ -52,6 +53,7 @@ export const ThreeFieldLine = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
 `;
 
 export const SecondField = styled.div`
@@ -87,14 +89,15 @@ export const Text = styled.span`
 
 export const Image = styled.img`
     width: 95%;
-    height: 70vh;
-    object-fit: cover;
+    aspect-ratio: 86/46;
+    object-fit: contain;
 `;
 
 export const FooterDiv = styled.div`
     width: 95%;
     display: flex;
     justify-content: space-between;
+    margin: 20px 0px;
 `;
 
 export const FooterLogo = styled.img`
